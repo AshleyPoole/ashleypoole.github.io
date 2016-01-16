@@ -1,0 +1,19 @@
+- slug: general
+  name: General
+  color: '#3498db'
+
+- slug: programming
+  name: programming
+  color: '#1abc9c'
+
+- slug: devops
+  name: devOps
+  color: '#1abc9c'
+
+- slug: databases
+  name: databases
+  color: '#3498db'
+
+- slug: security
+  name: security
+  color: '#3498db'
