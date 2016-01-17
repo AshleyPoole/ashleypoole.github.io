@@ -3,7 +3,7 @@ layout: post
 title: Test Your SSL Servers From Within PowerShell
 date: 2015-02-09 08:01
 categories: [programming, devops, security]
-tags: [powershell]
+tags: [powershell, ssl]
 ---
 If you read my blog or follow my <a title="Ashley Poole GitHub" href="https://www.github.com/AshleyPoole/" target="_blank">GitHub</a> account, you're likely to have seen I've recently released a .NET library which is a wrapper for the SSL Labs assessment Api's. These Api's allow the consumer to test their public facing SSL services to detect any configuration issues like certificate chain incomplete, Heartbleed vulnerable, etc.
 

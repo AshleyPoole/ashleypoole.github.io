@@ -3,7 +3,7 @@ layout: post
 title: Unverified SSL Certificates (Web Security Series)
 date: 2015-01-01 19:38
 categories: [security]
-tags: [hacking]
+tags: [hacking, ssl]
 ---
 This blog article is the first of a short series I'm writing on web security focusing in particular on mobile applications. This series will show real world examples I have uncovered of how security hasn't been implemented correctly with references to the <a title="Open Web Application Security Project" href="https://www.owasp.org/index.php/Main_Page" target="_blank">Open Web Application Security Project (OWASP)</a> where appropriate. My goal of this series is to highlight how not to implement web security to further help educate and highlight issues with security when it's not or incorrectly implemented.
 

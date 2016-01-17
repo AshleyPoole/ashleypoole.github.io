@@ -3,6 +3,7 @@ layout: post
 title: Introducing SSL Notifications (Beta)
 date: 2015-06-28 19:32
 categories: [security]
+tags: [ssl]
 ---
 When dealing with HTTPS endpoints that I managed, I often found myself turning to online scan providers including <a href="https://www.ssllabs.com/ssltest/analyze.html" target="_blank">SSL Labs</a> to manually carry out testing of these endpoints. This required me to A), Remember to periodically scan those endpoints and B), Have the free time required to scan all the endpoints.
 
