@@ -11,17 +11,26 @@ Coming soon.
 
 ----------
 
-### Employment History
-#### Proto Labs Ltd. September 2015 – Present
+### Employment History  
+
+
+#### Proto Labs Ltd. September 2015 – Present  
+
 ##### Associate Software Developer
 
-#### Proto labs Ltd. January 2014 – September 2015
+
+#### Proto labs Ltd. January 2014 – September 2015  
+
 ##### IT Software Support Analyst
 
-#### Proto labs Ltd. December 2011 – December 2013
+
+#### Proto labs Ltd. December 2011 – December 2013  
+
 ##### IT Support
 
-#### Press Computer Systems Ltd (PCS). August 2008 – December 2011
+
+#### Press Computer Systems Ltd (PCS). August 2008 – December 2011  
+
 ##### IT Technician
 
 ----------
