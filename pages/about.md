@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: A dynamic IT professional with a thirst for knowledge.
+permalink: /about/
 ---
 
 ### Summary
