@@ -2,8 +2,6 @@
 layout: post
 title: Windows Pending Reboot Flag
 date: 2013-08-19 18:02
-author: ashley@ashleypoole.co.uk
-comments: true
 categories: [server-admin, knowledge-base]
 tags: [windows]
 ---

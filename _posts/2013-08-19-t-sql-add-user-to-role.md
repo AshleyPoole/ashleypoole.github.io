@@ -2,9 +2,8 @@
 layout: post
 title: T-SQL Add User To Role
 date: 2013-08-19 17:57
-author: ashley@ashleypoole.co.uk
-comments: true
 categories: [databases, knowledge-base]
+tags: [sql-server]
 ---
 SQL below to add a role to a user.
 

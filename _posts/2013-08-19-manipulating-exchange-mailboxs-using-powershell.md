@@ -2,8 +2,6 @@
 layout: post
 title: Manipulating Exchange Mailboxs Using Powershell
 date: 2013-08-19 17:59
-author: ashley@ashleypoole.co.uk
-comments: true
 categories: [server-admin]
 tags: [powershell, exchange]
 ---
