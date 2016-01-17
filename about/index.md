@@ -6,6 +6,8 @@ subtitle: A dynamic IT professional with a thirst for knowledge.
 
 ### Summary
 
+Coming soon.
+
 ----------
 
 ### Employment History
