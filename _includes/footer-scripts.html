@@ -1,6 +1,6 @@
 {% if page.common-ext-js %}
   {% for js in page.common-ext-js %}
-	<script src="{{ js }} async"></script>
+	<script src="{{ js }}" async></script>
   {% endfor %}
 {% endif %}
 
@@ -12,7 +12,7 @@
 
 {% if page.ext-js %}
   {% for js in page.ext-js %}
-	<script src="{{ js }}"></script>
+	<script src="{{ js }}" async></script>
   {% endfor %}
 {% endif %}
 

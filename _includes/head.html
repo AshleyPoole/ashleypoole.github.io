@@ -15,7 +15,7 @@
 
   {% if page.common-ext-css %}
     {% for css in page.common-ext-css %}
-      <link rel="stylesheet" href="{{ css }} async" />
+      <link rel="stylesheet" href="{{ css }}" async/>
     {% endfor %}
   {% endif %}
 
@@ -33,7 +33,7 @@
 
   {% if page.ext-css %}
     {% for css in page.ext-css %}
-      <link rel="stylesheet" href="{{ css }}" />
+      <link rel="stylesheet" href="{{ css }}" async />
     {% endfor %}
   {% endif %}
 
