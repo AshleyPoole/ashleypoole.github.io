@@ -27,3 +27,7 @@ Unexpected token '}' in expression or statement.
     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
     + FullyQualifiedErrorId : ImportModuleNeedParams</span></pre>
 Hopefully this will save someone else out there in the community the time I spent on researching and diagnosing this issue I experienced! Microsoft support article - <a title="KB Article" href="http://support.microsoft.com/kb/2883200/en-us" target="_blank">http://support.microsoft.com/kb/2883200/en-us</a> KB2883200 DownloadCentre link - <a title="KB2883200 Download Link" href="http://www.microsoft.com/en-us/download/details.aspx?id=40774" target="_blank">http://www.microsoft.com/en-us/download/details.aspx?id=40774</a>
+
+
+\*\* Update \*\*  
+You will also want to read my later post on <a href="{% post_url 2014-05-13-why-cant-i-use-import-dscresource-in-powershell %}/" target="_blank">Why Cant I Use Import DSCResource</a>.
