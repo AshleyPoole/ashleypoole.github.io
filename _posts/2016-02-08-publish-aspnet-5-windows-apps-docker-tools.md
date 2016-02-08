@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publishing Applications To Windows Containers Using Visual Studio Docker Tools (Whirlwind Tour)
-date: 2016-02-08 20:30
+date: 2016-02-08 20:24
 categories: [DevOps]
 tags: [docker]
 ---
