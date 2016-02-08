@@ -75,3 +75,7 @@ wget http://localhost/mywebsite/index.html
 If all went well, you should now be looking at your webpage called index.html hosted using IIS from the Docker container we created. Hopefully I will get around to producing more Docker documentation soon :-) In the meantime let me know if you hit any issues with the guide.
 
 Thanks!
+
+-------------------------
+**Update**  
+You may also be interested in my later post on <a href="{% post_url 2016-02-08-publish-aspnet-5-windows-apps-docker-tools %}/" target="_blank">Publishing Applications To Windows Containers Using Visual Studio Docker Tools (Whirlwind Tour)</a>.
