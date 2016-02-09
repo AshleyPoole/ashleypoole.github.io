@@ -16,3 +16,10 @@ This whirlwind video demo will walk you through:
 3. Accessing your web application inside your Docker container  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vo1MYpLNSvA" frameborder="0" allowfullscreen></iframe>
+
+In part two, I'll provide a few examples of common issues when using Visual Studio Tools for Docker and the resolutions to those issues.
+
+-------------------------
+
+**Update**  
+Part two has now been published and can <a href="{% post_url 2016-02-09-visual-studio-tools-docker-issues %}">be read here</a>.
