@@ -73,7 +73,7 @@ disqus: "ashleypoole"
 # Output options (more information on Jekyll's site)
 timezone: "Europe/London"
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 permalink: /:year/:title
 paginate: 8
 
