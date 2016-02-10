@@ -1,19 +1,19 @@
 - slug: general
   name: General
-  color: '#3498db'
+  color: '#1abc9c'
 
 - slug: programming
-  name: programming
+  name: Programming
   color: '#1abc9c'
 
 - slug: devops
-  name: devOps
+  name: DevOps
   color: '#1abc9c'
 
 - slug: databases
-  name: databases
-  color: '#3498db'
+  name: Databases
+  color: '#1abc9c'
 
 - slug: security
-  name: security
-  color: '#3498db'
+  name: Security
+  color: '#1abc9c'
