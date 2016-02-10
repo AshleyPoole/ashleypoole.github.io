@@ -4,16 +4,16 @@
 
 - slug: programming
   name: Programming
-  color: '#1abc9c'
+  color: '#99ccff'
 
 - slug: devops
   name: DevOps
-  color: '#1abc9c'
+  color: '#ffad33'
 
 - slug: databases
   name: Databases
-  color: '#1abc9c'
+  color: '#006699'
 
 - slug: security
   name: Security
-  color: '#1abc9c'
+  color: '#adad85'

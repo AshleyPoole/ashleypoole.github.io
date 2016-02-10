@@ -32,7 +32,7 @@ layout: default
                   {% endif %}
               {% endfor %}
               {% if cat %}
-                  {% capture category_content_temp %}{{ category_content }}<a href="/category/{{ cat.slug }}/">{{ cat.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+                  {% capture category_content_temp %}{{ category_content }}<span class="label" style="background-color:{{ cat.color }}"><a href="/category/{{ cat.slug }}/">{{ cat.name }}</a></span>{% if forloop.last == false %}, {% endif %}{% endcapture %}
                   {% assign category_content = category_content_temp %}
               {% endif %}
           {% endfor %}
