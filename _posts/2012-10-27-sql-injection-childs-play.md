@@ -2,7 +2,7 @@
 layout: post
 title: SQL Injection - Childs Play
 date: 2012-10-27 20:30
-category: [security, databases]
+categories: [security, databases]
 tags: [hacking]
 ---
 SQL injection is becoming far too easy with the help of such tools as Havij. Havij is marketed as automated SQL injection tool for penetration testing, yet I wonder what % of real world users of this tool actually use it for 'testing'.

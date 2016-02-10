@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll & Hyde... Blogging Platforms
 date: 2016-01-19 21:09
-category: general
+categories: [general]
 ---
 
 Just like in the story of Jekyll & Hyde, my usage of Wordpress as my blogging platform has reached a bitter end. Over the last year, I found myself spending more time **trying** to write blog posts but fighting various WordPress issues at every turn. These issues included:  
