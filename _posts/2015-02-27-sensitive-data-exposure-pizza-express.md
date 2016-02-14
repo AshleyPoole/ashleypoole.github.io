@@ -6,6 +6,7 @@ categories: [security]
 tags: [hacking]
 ---
 This blog article is on sensitive data exposure which is the second article of a short series I’m writing on web security, focusing particularly on mobile applications. This series will show real world examples I have uncovered of how security hasn’t been implemented correctly with references to the <a title="Open Web Application Security Project" href="https://www.owasp.org/index.php/Main_Page" target="_blank">Open Web Application Security Project (OWAP)</a> where appropriate. My goal of this series is to highlight how not to implement web security to further help educate and highlight issues where security is not or incorrectly implemented.
+
 <h2>What Is Sensitive Data Exposure</h2>
 Before defining sensitive data exposure, let's briefly explore the definition of sensitive data which is any data that requires extra protection that normally includes passwords, credit card numbers, health records and personal information.
 
@@ -42,13 +43,13 @@ Last year during my testing of various Android applications I discovered that Pi
 
 Here's what one of those requests from the application looked like when running it through Fiddler and generating a trace file:
 
-<a href="{{ "/img/2015/02/pizzaexpress-http-request.png" | prepend: site.assetsbaseurl }}"><img class="aligncenter size-full wp-image-5301" src="{{ "/img/2015/02/pizzaexpress-http-request.png" | prepend: site.assetsbaseurl }}" alt="PizzaExpress HTTP  Request" width="1900" height="1006" /></a>
+<a href="{{ "/img/2015/02/pizzaexpress-http-request.png" | prepend: site.assetsbaseurl }}"><img class="aligncenter size-full" src="{{ "/img/2015/02/pizzaexpress-http-request.png" | prepend: site.assetsbaseurl }}" alt="PizzaExpress HTTP  Request" width="633" height="335" /></a>
 
 As you can just about make out in the screenshot, sensitive payment information like the credit card number (cc_number parameter) and the credit card cvv number (cc_cvv parameter) are visible as they have been sent over the wire in clear text.
 
 The same vulnerability also existed for the customer's login and registration pages which posted the users credentials over the wire in clear text too. Therefore if you've ever used the PizzaExpress mobile application and have registered, I <strong>strongly</strong> recommend you to change your password as a matter of precaution.
 
-[caption id="attachment_5401" align="alignnone" width="800"]<a href="{{ "/img/2015/02/izzaexpress-post-password.png" | prepend: site.assetsbaseurl }}"><img class="wp-image-5401 size-full" src="{{ "/img/2015/02/izzaexpress-post-password.png" | prepend: site.assetsbaseurl }}" alt="PizzaExpress Posts Clear Text Passwords" width="800" height="352" /></a> Screenshot of Fiddler session showing email address and password being POSTed over HTTP.[/caption]
+<a href="{{ "/img/2015/02/izzaexpress-post-password.png" | prepend: site.assetsbaseurl }}"><img class="wp-image-5401 size-full" src="{{ "/img/2015/02/pizzaexpress-post-password.png" | prepend: site.assetsbaseurl }}" alt="PizzaExpress Posts Clear Text Passwords" width="800" height="352" /></a> Screenshot of Fiddler session showing email address and password being POSTed over HTTP.
 
 After making the discovery I promptly informed PizzaExpress detailing my findings and received the following reply from them a couple of weeks after reaching out to them.
 <blockquote>
