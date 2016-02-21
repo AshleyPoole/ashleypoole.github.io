@@ -3,7 +3,7 @@ layout: post
 title: Another Tesco (Bank) Security Fail!
 ate: 2016-02-18 20:50
 categories: [security]
-tags: [security, rant]
+tags: [wtf, rant]
 ---
 
 Tesco doesn't have a great track record with security as Troy Hunt has pointed out in the past with such articles as <a href="http://www.troyhunt.com/2014/02/the-tesco-hack-heres-how-it-probably.html" target="_blank">The Tesco hack – here’s how it (probably) happened</a> and <a href="http://www.troyhunt.com/2012/07/lessons-in-website-security-anti.html" target="_blank">Lessons in website security anti-patterns by Tesco</a>. I was still surprised though when I attempted to log into my online account at  Tesco Bank with only my username (that turned out to be incorrect), only to be greeted with a page informing me that my username didn't exist. Hang on a minute, what just happened there?!
