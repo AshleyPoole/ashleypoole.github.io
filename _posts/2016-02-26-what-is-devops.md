@@ -55,7 +55,7 @@ I see DevOps as an extension of the Agile business process that shares a number 
 In an attempt to keep this first post of the series reasonable short, I will talk more about DevOps culture, automation and tooling in future posts. The next post will focus on whether DevOps is a role, team or culture.
 
 To summarise this post, DevOps is about:  
-- Bridging the cap between operations and development by improving communication, collaboration and integration, similar to that of Agile which bridges the gap between the business and development  
+- Bridging the gap between operations and development by improving communication, collaboration and integration, similar to that of Agile which bridges the gap between the business and development  
 - Breaking down silo's, not creating another silo  
 - Enabling IT agility in order to support the businesses objectives including requested changes  
 - Helping release more often without compromising the stability and available of the systems  
