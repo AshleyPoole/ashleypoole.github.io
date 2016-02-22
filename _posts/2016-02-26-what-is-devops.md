@@ -31,24 +31,24 @@ In my opinion based on my current understanding and the referenced definitions, 
 - **Collaboration**  
 - **Integration**  
 
-<img src="{{ "/img/2016/02/dev-ops-principles.jpg" | prepend: site.assetsbaseurl }}" alt="devops principles" width="794" height="354" style="margin:0px auto;display:block"/>
+<img src="https://assets.ashleypoole.co.uk/img/2016/02/dev-ops-principles.jpg" alt="devops principles" width="794" height="354" style="margin:0px auto;display:block"/>
 <center><i>Image credit: NewRelic.</i></center>  
 
 A classic example of the type of issues that the DevOps core principles are trying to solve is where development (Dev) would historically "<a href="https://en.wikipedia.org/wiki/Traditional_engineering">throw code over the wall</a>" at the IT operations (Ops) team and let them deal with the fall out of any production issues including stability. With DevOps, both operations and development should work together to ensure both teams objectives are met - Delivering faster but in a stable manor in order to support the business's objectives.
 
-<img src="{{ "/img/2016/02/worked-fine-in-dev.jpg" | prepend: site.assetsbaseurl }}" alt="Worked Fine In Dev, Ops Problem Now" width="400" height="299" style="margin:0px auto;display:block"/>
+<img src="https://assets.ashleypoole.co.uk/img/2016/02/worked-fine-in-dev.jpg" alt="Worked Fine In Dev, Ops Problem Now" width="400" height="299" style="margin:0px auto;display:block"/>
 <center><i>Historical problem of Dev throwing code over the wall to production / Ops.</i></center>  
 
 This previous lack of communication, collaboration and integration would then to lead to Ops pushing back on future releases and wanting to slow down the release process in order to maintain the stability and available of the system.
 
-<img src="{{ "/img/2016/02/ops-vs-dev-support.png" | prepend: site.assetsbaseurl }}" alt="Ops pushing back at dev" width="415" height="265" style="margin:0px auto;display:block"/>
+<img src="https://assets.ashleypoole.co.uk/img/2016/02/ops-vs-dev-support.png" alt="Ops pushing back at dev" width="415" height="265" style="margin:0px auto;display:block"/>
 <center><i>Historical problem of Ops reacting to Dev throwing code over the wall and impacting the stability and available of production.</i></center>
 
 ## Where Does DevOps Fit In Within The Business Process?
 
 I see DevOps as an extension of the Agile business process that shares a number of common objectives which ultimately are to support change for the business but from different levels of the stack. In this case where Agile is about bring the business and development teams together in order to support change, DevOps is about archiving the same objective by bring development and operations teams together.
 
-<img src="{{ "/img/2016/02/agile-devops-fit.jpg" | prepend: site.assetsbaseurl }}" alt="agile and devops fit" width="669" height="397" style="margin:0px auto;display:block"/>
+<img src="https://assets.ashleypoole.co.uk/img/2016/02/agile-devops-fit.jpg" alt="agile and devops fit" width="669" height="397" style="margin:0px auto;display:block"/>
 <center><i>Image credit: Stackify - <a href="http://stackify.com/defining-the-ops-in-devops/">Define the Ops in Devops</a> article.</i></center>
 
 ## Summary
