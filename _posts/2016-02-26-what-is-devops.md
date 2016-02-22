@@ -6,7 +6,7 @@ categories: [devops]
 tags: [questions, decodingdevopsseries]
 ---
 
-DevOps is an interesting subject and one that is close to my heart, so I've decided to write a short series over the next few months on DevOps called **Decoding DevOps** which includes my interpretations of the current state of the DevOps movement. Without delay, let's crack on with the first post in the series.
+DevOps is an interesting subject and one that is close to my heart so I've decided to write a short series over the next few months on DevOps called **Decoding DevOps** which includes my interpretations of the current state of the DevOps movement. Without delay, let's crack on with the first post in the series.
 
 ## What Is DevOps?
 I mean, what truly is DevOps? I'm confident in saying I've done DevOps, I've "been" DevOps and I'd also personally say I'm still doing DevOps but what actually is DevOps? Confused, well I think that's the current state of DevOps; I see it as another new (or not so new) hype word that is thrown around who's definition widely varies and in some cases, even abused.
@@ -46,7 +46,7 @@ This previous lack of communication, collaboration and integration would then to
 
 ## Where Does DevOps Fit In Within The Business Process?
 
-I see DevOps as an extension of the Agile business process that shares a number of common objectives which ultimately are to support change for the business but from different levels of the stack. In this case where Agile is about bring the business and development teams together in order to support change, DevOps is about archiving the same objective by bring development and operations teams together.
+I see DevOps as an extension of the Agile business process that shares a number of common objectives which ultimately are to support change for the business but from different levels of the stack. In this case where Agile is about bringing the business and development teams together in order to support change, DevOps is about archiving the same objective by bringing development and operations teams together.
 
 <img src="https://assets.ashleypoole.co.uk/img/2016/02/agile-devops-fit.jpg" alt="agile and devops fit" width="669" height="397" style="margin:0px auto;display:block"/>
 <center><i>Image credit: Stackify - <a href="http://stackify.com/defining-the-ops-in-devops/">Define the Ops in Devops</a> article.</i></center>
