@@ -6,7 +6,7 @@ categories: [devops]
 tags: [questions, decodingdevopsseries]
 ---
 
-DevOps is an interesting subject and one that's close to my heart, so I've decided to write a short series over the next few months on DevOps called **Decoding DevOps**. This series also includes my interpretations of the current state of the DevOps movement, so without delay, let's crack on with the first post in the series.
+DevOps is an interesting subject and one that's close to my heart, so I've decided to write a short series over the next few months called **Decoding DevOps**. This series will include my interpretations of the current state of the DevOps movement. So without delay, let's crack on with the first post in the series.
 
 ## What Is DevOps?
 I mean, what truly is DevOps? I'm confident in saying I've done DevOps, I've "been" DevOps and I'd also personally say I'm still doing DevOps but what actually is DevOps? Confused, well I think that's the current state of DevOps; I see it as another new (or not so new) hype word that's thrown around who's definition widely varies and in some cases, even abused.
