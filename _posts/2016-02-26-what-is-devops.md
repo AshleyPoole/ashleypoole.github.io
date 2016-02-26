@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Is DevOps?
-date: 2016-02-28 07:00
+date: 2016-02-26 07:00
 categories: [devops]
 tags: [questions, decodingdevopsseries]
 ---
