@@ -12,13 +12,16 @@ Coming soon.
 ----------
 
 ### Employment History  
+**Proto Labs Ltd. April 2016 – Present**  
+**Software Developer**
 
-**Proto Labs Ltd. September 2015 – Present**  
+
+**Proto Labs Ltd. September 2015 – April 2016**  
 **Associate Software Developer**
 
 
 **Proto labs Ltd. January 2014 – September 2015**  
-**IT Software Support Analyst (DevOps)**
+**Software Support Analyst (DevOps)**
 
 
 **Proto labs Ltd. December 2011 – December 2013**  
