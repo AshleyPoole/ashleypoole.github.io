@@ -10,7 +10,7 @@ First I’d like to say that I’m not being paid or asked to write any of this,
 
 One of the missing features for some people I’ve talked to has always been the ability to script and automate operations from within PowerShell on Windows. Previously for a Windows Administrator it required having basic knowledge of SSH tunnels, as well as knowing the syntax for the Linux operations.
 
-After seeing this issue, Myself and two colleague’s set about creating a useable PowerShell module using the PowerShell approved verbs so that the cmdlets were intuitive to people already using PowerShell.
+After seeing this issue, myself and two colleagues set about creating a useable PowerShell module using the PowerShell approved verbs so that the cmdlets were intuitive to people already using PowerShell.
 
 If you're unsure what the Microsoft approved verbs for commands are, then you can read more about them <a href="https://msdn.microsoft.com/en-us/library/ms714428(v=vs.85).aspx">here</a>.
 
