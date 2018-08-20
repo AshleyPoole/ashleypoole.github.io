@@ -33,7 +33,7 @@ Get-ChildItem $Repo -Recurse -Filter '*.sln' | Select { Start $_.FullName }
 <h2>Setup</h2>
 Setting the script as a custom action up in SourceTree is also extremely easy. Below is a screenshot of the options you need in order to get the custom action setup. Simply replace 'C:\scripts\...' with the location of where you have saved the script.
 
-<img class="alignnone wp-image-5611 size-medium" src="{{ "/img/2015/03/open-solution-300x123.png"" | prepend: site.assetsbaseurl }}" alt="SourceTree Create Custom Action" width="300" height="123" />
+<img class="alignnone wp-image-5611 size-medium" src="{{ "/img/2015/03/open-solution-300x123.png" | prepend: site.assetsbaseurl }}" alt="SourceTree Create Custom Action" width="300" height="123" />
 <h2>Usage</h2>
 Once you have the custom action setup then it can be accessed by right clicking on the repository or a commit and choosing the new custom action called 'Open Solution' from within the 'Custom Actions' menu.
 

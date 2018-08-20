@@ -77,6 +77,8 @@ highlighter: rouge
 permalink: /:year/:title/
 paginate: 8
 
+plugins: [jekyll-paginate,jekyll-sitemap]
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -

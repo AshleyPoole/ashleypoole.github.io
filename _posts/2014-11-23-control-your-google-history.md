@@ -20,7 +20,7 @@ Google however provides an easy to use <a title="Google Account History" href="
 	<li>YouTube Searches</li>
 	<li>YouTube Watch</li>
 </ul>
-<img class="wp-image-1418" src="{{ "/img/2014/10/accounthistory.png"" | prepend: site.assetsbaseurl }}" alt="Google Account History" width="1022" height="993" /> [Google Account History Screen.]
+<img class="wp-image-1418" src="{{ "/img/2014/10/accounthistory.png" | prepend: site.assetsbaseurl }}" alt="Google Account History" width="1022" height="993" /> [Google Account History Screen.]
 
 There is also links which allow you to alter your settings for Google+, Search and Ads. As part of the Ads settings, you can also opt out of personalised advertising.
 
