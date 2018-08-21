@@ -4,9 +4,14 @@ title: Why I Think CloudFlare's Universal SSL Is Flawed
 date: 2014-12-12 16:48
 categories: [security]
 tags: [cloudflare, ssl]
+excerpt_separator: <!--more-->
 ---
 Now I have to start this blog post stating that I love every bit of <a title="CloudFlare Home Page" href="https://www.cloudflare.com/" target="_blank">CloudFlare</a>, their offerings and what their about. Hell, you could even call me one of their <a title="Fanboy Wikipedia" href="http://en.wikipedia.org/wiki/Fan_(person)" target="_blank">fanboys</a> as I rave about them at just about every opportunity and I even use their services for my blog that you're reading now!
-<h2>What is Universal SSL</h2>
+
+excerpt_separator: <!--more-->
+
+## What is Universal SSL
+
 CloudFlare recently announced and implemented a feature called<a title="CloudFlare Universal SSL" href="https://www.cloudflare.com/ssl" target="_blank"> Universal SSL </a>which in their words is about:
 <blockquote>"encrypting as much web traffic as possible to prevent data theft and other tampering". Also continuing on to state they are "proud to be the first Internet performance and security company to offer SSL protection at no cost".</blockquote>
 This announcement was no small feat towards securing more of our web traffic and one that should certainly be applauded. However this is unfortunately where my love of Universal SSL becomes divided and in the case of the Flexible SSL and Full SSL implementations turns into absolute horror.

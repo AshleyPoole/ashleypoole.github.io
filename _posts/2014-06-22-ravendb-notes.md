@@ -4,8 +4,12 @@ title: RavenDB Notes
 date: 2014-06-22 20:40
 categories: [databases, knowledge-base]
 tags: [notes]
+excerpt_separator: <!--more-->
 ---
 A few notes from my personal exploration of RavenDB so far.
+
+<!--more-->
+
 <h2>Under-The-Hood</h2>
 <ul>
 	<li>Document database part of the NoSQL database offerings.</li>

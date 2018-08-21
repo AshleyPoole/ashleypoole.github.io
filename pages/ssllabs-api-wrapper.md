@@ -3,9 +3,9 @@ layout: page
 title: Qualys SSL Labs Api Wrapper
 sitemap:
   changefreq: quarterly
-permalink: /ssllwrapper/
+permalink: /ssllabs-api-wrapper/
 ---
-##What Is this wrapper?
+## What Is this wrapper?
 This is the first publicly available .NET wrapper developed for the <a title="SSL Labs Assessment API's GitHub" href="https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs.md" target="_blank">SSL Labs' Assessment API's</a> that allow the consumer to test SSL servers on the public internet.
 
 This wrapper easies the communication to the API's for .NET developers which allows you as the developer to focus on your project rather than managing the plumbing and overhead required to consume the API's.
@@ -16,7 +16,9 @@ This wrapper easies the communication to the API's for .NET developers which all
 <h2>NuGet Package</h2>
 The wrapper can easily be imported into your project using the <a title="SSL Labs Api Wrapper NuGet Package" href="https://www.nuget.org/packages/SSLLabsApiWrapper/" target="_blank">NuGet package</a>. The NuGet install command for this package is:
 
-<strong>PM&gt; Install-Package SSLLabsApiWrapper</strong>
+{% highlight powershell %}
+PM> Install-Package SSLLabsApiWrapper
+{% endhighlight %}
 
 <h2>Wrapper Usage</h2>
 When creating a new instance of the SSL Labs Api wrapper service you must supply the API url during the initialisation. For example in C# this would be expressed as the following:

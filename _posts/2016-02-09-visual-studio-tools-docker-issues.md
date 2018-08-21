@@ -4,8 +4,12 @@ title: Publishing Applications To Windows Containers Using Visual Studio Docker 
 date: 2016-02-09 18:30
 categories: [DevOps]
 tags: [docker]
+excerpt_separator: <!--more-->
 ---
+
 In-short this post is part two following on from my previous post entitled <a href="{% post_url 2016-02-08-publish-aspnet-5-windows-apps-docker-tools %}/" target="_blank">Publishing Applications To Windows Containers Using Visual Studio Docker Tools (Whirlwind Tour)</a> which showed you a whirlwind tour of how to publish an application to a Windows based Docker container from within Visual Studio. This post is intended for anyone may or may not have followed that demo but has experienced  issues with Docker and <a href="https://visualstudiogallery.msdn.microsoft.com/0f5b2caa-ea00-41c8-b8a2-058c7da0b3e4" target="_blank">Visual Studio Tools for Docker</a>.
+
+<!--more-->
 
 *This FAQ document is based on errors I encountered using a newly created greenfield ASP.NET 5 / ASP.NET Core demo project build using ASP.NET 5 RC1, Visual Studio 2015 Update 1 and Visual Studio Tools for Docker - December Preview. If you're interested in the demo website and Docker configuration, then it can be found on <a href="https://github.com/AshleyPoole/KaleLovers" target="_blank">my GitHub account</a>.*
 

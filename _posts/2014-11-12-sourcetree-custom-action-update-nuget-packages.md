@@ -4,8 +4,12 @@ title: SourceTree Custom Action – Update NuGet Packages
 date: 2014-11-12 18:51
 categories: [programming]
 tags: [git]
+excerpt_separator: <!--more-->
 ---
+
 Following on from my recent post on creating a <a href="{% post_url 2014-10-17-sourcetree-custom-action-open-fogbugz-case %}/">SourceTree custom action to open an FogBugz case</a>, I thought I'd share another custom action I have created. Again this custom action has been born out of the need to add some ease to a laborious process in our application life cycles.
+
+<!--more-->
 
 This new custom action allows you to update all or just a selected NuGet package for all solutions within a given repository, directly within the SourceTree client. This removes the need for a developer to open the solution (.sln) to just update the NuGet packages as previously once had to be done. It may only save 30-60 seconds but that will soon add up!
 

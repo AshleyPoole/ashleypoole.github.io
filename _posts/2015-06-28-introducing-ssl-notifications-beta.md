@@ -4,8 +4,11 @@ title: Introducing SSL Notifications (Beta)
 date: 2015-06-28 19:32
 categories: [security]
 tags: [ssl]
+excerpt_separator: <!--more-->
 ---
 When dealing with HTTPS endpoints that I managed, I often found myself turning to online scan providers including <a href="https://www.ssllabs.com/ssltest/analyze.html" target="_blank">SSL Labs</a> to manually carry out testing of these endpoints. This required me to A), Remember to periodically scan those endpoints and B), Have the free time required to scan all the endpoints.
+
+<!--more-->
 
 With the release of the public <a href="https://github.com/ssllabs/ssllabs-scan/blob/stable/ssllabs-api-docs.md" target="_blank">API’s from SSL Labs</a> it sparked an idea within me and I set about creating a .NET wrapper* for the API which I released to <a href="https://github.com/AshleyPoole/ssllabs-api-wrapper" target="_blank">GitHub</a> as an open source project and also as a <a href="https://www.nuget.org/packages/SSLLabsapiwrapper" target="_blank">NuGet package</a> for ease of use.
 <h2>Introducing SSL Notifications</h2>

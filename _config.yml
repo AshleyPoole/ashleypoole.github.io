@@ -1,148 +1,45 @@
-# --- Serving options --- #
-
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "//ashleypoole.co.uk"
-baseurl: ""
-assetsbaseurl: "//assets.ashleypoole.co.uk"
-productionurl: "https://ashleypoole.co.uk"
-
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
+# Site settings
 title: Ashley Poole
+description: 'Speaker, Senior Software Developer, Site Reliability Engineering Advocate and Co-organiser of @ShropshireDevs user group.'
+intro_description: '- Speaker -<br />- Senior Software Developer -<br />- Co-organiser of <a href="https://twitter.com/shropshiredevs" target="_blank">@ShropshireDevs</a> -<br />- Site Reliability Engineering Advocate -'
+url: 'http://localhost:4000'
+baseurl: ''
+assetsbaseurl: "//assets.ashleypoole.co.uk"
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'ashleypoole'
 
-# Short description of your site
-description: Thirst For Knowledge
-
-# --- Navigation bar options --- #
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
-
-# List of links in the navigation bar
-navbar-links:
-  Home: ""
-  About Me: "about"
-  Projects: "projects"
-  Search: "search"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Ashley Poole
-  email: "contact@ashleypoole.co.uk"
-  github: ashleypoole
-  twitter: ashleypooleuk
-  linkedin: in/ashleypoole
-  #stackoverflow: yourlink  # eg. "3943160/daattali"
+  name: 'Ashey Poole'
+  email: contact@ashleypoole.co.uk
+  twitter_username: AshleyPooleUK
+  facebook_username: 
+  github_username:  AshleyPoole
+  linkedin_username:  ashleypoole
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: true
-  facebook: false
-  email: true
-  twitter: true
-  github: true
-  linkedin: true
-  stackoverflow: false
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "AshleyPoole.co.uk"  # eg. "deanattali.com/beautiful-jekyll"
-
-# --- Misc --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "ashleypoole"
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
-# --- Don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "Europe/London"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year/:title/
-paginate: 8
-
-plugins: [jekyll-paginate,jekyll-sitemap]
-
-# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "default"
+        layout: 'post'
 
-# Exclude these files from production site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - Vagrantfile
+# Build settings
+destination: _site
+paginate: 8
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
 
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']

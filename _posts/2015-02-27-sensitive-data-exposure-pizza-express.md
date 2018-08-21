@@ -4,10 +4,15 @@ title: Sensitive Data Exposure With Every Delicious Pizza
 date: 2015-02-27 07:12
 categories: [security]
 tags: [hacking]
+excerpt_separator: <!--more-->
 ---
-This blog article is on sensitive data exposure which is the second article of a short series I’m writing on web security, focusing particularly on mobile applications. This series will show real world examples I have uncovered of how security hasn’t been implemented correctly with references to the <a title="Open Web Application Security Project" href="https://www.owasp.org/index.php/Main_Page" target="_blank">Open Web Application Security Project (OWAP)</a> where appropriate. My goal of this series is to highlight how not to implement web security to further help educate and highlight issues where security is not or incorrectly implemented.
 
-<h2>What Is Sensitive Data Exposure</h2>
+This blog article is on sensitive data exposure which is the second article of a short series I’m writing on web security, focusing particularly on mobile applications. This series will show real world examples I have uncovered of how security hasn’t been implemented correctly with references to the <a title="Open Web Application Security Project" href="https://www.owasp.org/index.php/Main_Page" target="_blank">Open Web Application Security Project (OWAP)</a> where appropriate. My goal of this series is to highlight how not to implement web security to further help educate and highlight issues where security is not or incorrectly implemented. 
+
+<!--more-->
+
+## What Is Sensitive Data Exposure
+
 Before defining sensitive data exposure, let's briefly explore the definition of sensitive data which is any data that requires extra protection that normally includes passwords, credit card numbers, health records and personal information.
 
 OWASP defines sensitive data exposure as:

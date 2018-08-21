@@ -1,20 +1,38 @@
-// Dean Attali / Beautiful Jekyll 2015
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
 
-// Shorten the navbar after scrolling a little bit down
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar").addClass("top-nav-short");
+$(document).ready(function () {
+  $('a.blog-button').click(function (e) {
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+    currentWidth = $('.panel-cover').width()
+    if (currentWidth < 960) {
+      $('.panel-cover').addClass('panel-cover--collapsed')
+      $('.content-wrapper').addClass('animated slideInRight')
     } else {
-        $(".navbar").removeClass("top-nav-short");
+      $('.panel-cover').css('max-width', currentWidth)
+      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
     }
-});
+  })
 
-// On mobile, hide the avatar when expanding the navbar menu
-$('#main-navbar').on('show.bs.collapse', function () {
-  $(".navbar").addClass("top-nav-expanded");
-})
-$('#main-navbar').on('hidden.bs.collapse', function () {
-  $(".navbar").removeClass("top-nav-expanded");
-})
+  if (window.location.hash && window.location.hash == '#blog') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+  }
 
-// 2fc73a3a967e97599c9763d05e564189
+  if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+  }
+
+  $('.btn-mobile-menu').click(function () {
+    $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+  $('.navigation-wrapper .blog-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+})

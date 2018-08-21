@@ -4,8 +4,12 @@ title: Why I Moved To Azure
 date: 2014-11-30 20:40
 categories: [general]
 tags: [azure]
+excerpt_separator: <!--more-->
 ---
+
 With 2015 fast approaching and a few hours spare, I decided it was time to bite the bullet and migrate most of my websites that I own (including this blog) to Azure. Now I want to point out this wasn't my first experience of using Azure but it was however the first time I'd forced myself to use it full time and for my live websites.
+
+<!--more-->
 
 Until now I had been using a Linux based Virtual Private Server (VPS) with only 128MB of RAM, running up to 5 websites at times of which four of them were Wordpress installations. I also hosted the MySQL databases for those WordPress installations on the same server, all for only $17.99 which works out to about £11.50 - £12 for a year.
 

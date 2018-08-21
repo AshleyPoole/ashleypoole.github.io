@@ -4,12 +4,16 @@ title: Reflection&#58; Public Speaking
 date: 2015-08-30 22:42
 categories: [general, security]
 tags: [speaking]
+excerpt_separator: <!--more-->
 ---
 Well I've been back in the UK for about a week now after attending an internal work conference in Minnesota, USA and wanted to reflect on my experience of public speaking while out there. At the conference I presented two sessions on information security, each lasting 45 minutes long and being delivered live to approximately 50+ software engineers. The titles of these sessions were:
 <ul>
 	<li>Secure Development Practices: For the modern day web developer</li>
 	<li>Exploring The Dark Side Of Mobile Applications</li>
 </ul>
+
+<!--more-->
+
 Now at this stage I want to mention that I’m by no means a security expert by any stretch of the imagination, simply someone who has a growing interesting in the subject and likes ‘breaking’ things to understand how they work. (I also happen to follow some pretty smart people on social media including <a href="http://www.troyhunt.com/" target="_blank">Troy Hunt</a>, who I’m very much looking forward to attending his sessions at <a href="http://ndc-london.com/" target="_blank">NDC London 2016</a> conference).
 
 While I cannot share the recording of sessions I did however want to briefly share what was covered in those sessions including the session feedback of those sessions which is the reasoning behind this post, as I believe it’s extremely important to take all feedback on-board and learn from it. Simply, it’s just another form of a peer review, just like when we’re writing code and create code review or pull request.

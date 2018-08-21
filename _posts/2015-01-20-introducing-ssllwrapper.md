@@ -4,11 +4,16 @@ title: Introducing SSLLWrapper
 date: 2015-01-20 22:28
 categories: [programming, security]
 tags: [powershell]
+excerpt_separator: <!--more-->
 ---
-<h2>What Is SSLLWrapper</h2>
+
+## What Is SSLLWrapper
+
 <blockquote>SSLLWrapper stands for SSL Labs Wrapper which is the first publicly available .NET wrapper developed for the <a title="SSL Labs Assessment API's GitHub" href="https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs.md" target="_blank">SSL Labs' Assessment API's</a> that allow the consumer to test SSL servers on the public internet.
 
 This wrapper easies the communication to the API's for .NET developers which allows you as the developer to focus on your project rather than managing the plumbing and overhead required to consume the API's.
+
+excerpt_separator: <!--more-->
 
 ( Quoted from <a title="ssllwrapper page" href="/ssllwrapper/" target="_blank"><strong>ssllwrapper documentation</strong></a> )</blockquote>
 <h2>Why I Wrote SSLLWrapper</h2>

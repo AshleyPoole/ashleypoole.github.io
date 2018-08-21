@@ -4,8 +4,12 @@ title: SourceTree Custom Action - Open FogBugz Case
 date: 2014-10-17 22:25
 categories: [programming]
 tags: [git]
+excerpt_separator: <!--more-->
 ---
 <p>Today I was asked by one of our developers for help in creating a PowerShell script that would be used within the SourceTree client which of course piqued my interest, especially with all my recent work with PowerShell. Therefore this evening I cracked up my Windows 8.1 development VM and created the script which your see below based on the requirements.</p>
+
+<!--more-->
+
 <p>The requirements were that the script should be able to search the specified commit's message for the 'BugzID' (FogBugz case ID) and open the relevant FogBugz case in the browser. For reference, we use the BugzID property to tie commits up to their cases for auditing purposes.</p>
 The script is written to be used with the SourceTree client which has a feature called <a href="http://blog.sourcetreeapp.com/2012/02/08/custom-actions-more-power-to-you/" target="_blank">Custom Actions</a> that allows you to extend the range of functionality available within the GUI with your own commands or scripts. If your unsure about how to add Custom Actions in SourceTree or want to know more, see their blog article <a href="http://blog.sourcetreeapp.com/2012/02/08/custom-actions-more-power-to-you/" target="_blank">here</a> on the topic. You can also use the script by simply running it and passing it in a folder path to a GIT repository followed by the commit SHA.
 

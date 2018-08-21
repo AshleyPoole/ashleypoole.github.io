@@ -10,7 +10,7 @@ This is a simple post detailing how you can use PowerShell to quickly check the 
 
 More details on Metrics.NET can be found on their <a href="https://github.com/Recognos/Metrics.NET">GitHub repository</a> or <a href="https://github.com/Recognos/Metrics.NET/wiki">Wiki</a>.
 
-The idea behind using PowerShell to query Metrics.NET health checks is that this script could be given to people in operations who can then monitor the help of the application without requiring knowledge of Metrics.NET or JSON. A message is also sent to the related developer's slack channel so they get a heads up that something isn't healthy and get in-front of the issue before it's reported :-)
+The idea behind using PowerShell to query Metrics.NET health checks is that this script could be given to people in operations who can then monitor the health of the application without requiring knowledge of Metrics.NET or JSON. A message is also sent to the related developer's slack channel so they get a heads up that something isn't healthy and get in-front of the issue before it's reported :-)
 
 To make this as re-usable as possible and cleaner to read, I created two PowerShell scripts, one containing the functions and the other for running the health checks.
 
