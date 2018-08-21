@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Speaking
-permalink: /speaking
+permalink: /speaking/
 ---
 
 I am available to speak at user groups, events and conferences on various technology topics. Below are a sample list of some of the talks I have presented before.
