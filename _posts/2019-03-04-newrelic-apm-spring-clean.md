@@ -7,7 +7,7 @@ tags: [newrelic]
 ---
 Having a spring clean of New Relic APM might be a little tedious but luckily New Relic provide a feature rich API which makes this job a breeze.
 
-Below is an API script for that will loop through all the non-reporting applications from your New Relic account based on the API key, and issues a delete request to their API.
+Below is an Powershell script that will loop through all the non-reporting applications from your New Relic account based on the API key, and issue a delete request to their API for each of those applications.
 
 {% highlight powershell %}
 Param(
