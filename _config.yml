@@ -1,7 +1,7 @@
 # Site settings
 title: Ashley Poole
-description: 'Speaker, Senior Software Developer, Site Reliability Engineering Advocate and Co-organiser of @ShropshireDevs user group.'
-intro_description: '- Speaker -<br />- Senior Software Developer -<br />- Co-organiser of <a href="https://twitter.com/shropshiredevs" target="_blank">@ShropshireDevs</a> -<br />- Site Reliability Engineering Advocate -'
+description: 'Speaker, Technical Lead, Site Reliability Engineering Advocate and Co-organiser of @ShropshireDevs user group.'
+intro_description: '- Speaker -<br />- Technical Lead -<br />- Co-organiser of <a href="https://twitter.com/shropshiredevs" target="_blank">@ShropshireDevs</a> -<br />- Site Reliability Engineering Advocate -'
 url: 'http://localhost:4000'
 baseurl: ''
 assetsbaseurl: "//assets.ashleypoole.co.uk"
