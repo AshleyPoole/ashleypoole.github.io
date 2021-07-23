@@ -6,8 +6,11 @@ permalink: /speaking/
 
 I am available to speak at user groups, events and conferences on various technology topics. Below are a sample list of some of the talks I have presented before.
 
+## 2020
+Testing In Production: How To Know When Things Are Wrong Before Your Customers -- CANCELLED DUE TO COVID
+
 ## 2019
-Infrastracture As Code For Developers: Terraform 101
+Infrastructure As Code For Developers: Terraform 101
 
 ## 2018
 Docker on Windows 101 [(slides)](https://github.com/AshleyPoole/Presentations/blob/master/Docker%20on%20Windows%20101.pptx){:target="_blank"} [(recording)](https://vimeo.com/271358897){:target="_blank"}
