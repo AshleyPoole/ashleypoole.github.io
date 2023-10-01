@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Search
-permalink: /search/
-sitemap: false
+permalink: /search
+robots: noindex
 ---
 <script>
   (function() {

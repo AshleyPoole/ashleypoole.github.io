@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Qualys SSL Labs Api Wrapper
-sitemap:
-  changefreq: quarterly
 permalink: /ssllabs-api-wrapper/
+robots: noindex
 ---
 ** This package is no longer maintained **
 
