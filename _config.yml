@@ -1,32 +1,32 @@
 # Site settings
 title: Ashley Poole
-description: 'Speaker, Engineering Leadership, Site Reliability Engineering Advocate and Co-organiser of @ShropshireDevs user group.'
-intro_description: '- Speaker -<br />- Engineering Leadership -<br />- Co-organiser of <a href="https://twitter.com/shropshiredevs" target="_blank">@ShropshireDevs</a> -<br />- Site Reliability Engineering Advocate -'
-url: 'http://localhost:4000'
+description: 'Engineering Management, Engineering Leadership, Product & Platform Engineering, Site Reliability Engineering Advocate and Speaker.'
+intro_description: '- Engineering Leadership -<br />- Engineering Management -<br />- Product & Platform Engineering -<br />- Site Reliability Engineering Advocate -<br />- Speaker -<br />'
+url: 'ashleypoole.co.uk'
 baseurl: ''
-assetsbaseurl: "//assets.ashleypoole.co.uk"
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'ashleypoole'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
 
 author:
-  name: 'Ashey Poole'
-  email: contact@ashleypoole.co.uk
-  twitter_username: AshleyPooleUK
+  name: 'Ashley Poole'
+  email: hello@ashleypoole.co.uk
+  twitter_username: 
   facebook_username: 
-  github_username:  AshleyPoole
+  github_username:  ashleypoole
   linkedin_username:  ashleypoole
 
 defaults:
   -
     scope:
-      path: ''
+      path: 'posts'
       type: 'posts'
     values:
         layout: 'post'
 
 # Build settings
 destination: _site
-paginate: 8
+paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
@@ -42,4 +42,4 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'ashleypoole.code-workspace']

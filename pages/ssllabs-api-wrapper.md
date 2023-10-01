@@ -5,6 +5,8 @@ sitemap:
   changefreq: quarterly
 permalink: /ssllabs-api-wrapper/
 ---
+** This package is no longer maintained **
+
 ## What Is this wrapper?
 This is the first publicly available .NET wrapper developed for the <a title="SSL Labs Assessment API's GitHub" href="https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs.md" target="_blank">SSL Labs' Assessment API's</a> that allow the consumer to test SSL servers on the public internet.
 

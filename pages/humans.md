@@ -1,15 +1,14 @@
 ---
-layout: null
+layout: humans
 sitemap: false
 permalink: /humans.txt
 robots: noindex
 ---
-
-## Contact
-Twitter: @AshleyPooleUK
+/* TEAM */
+Email: hello@ashleypoole.co.uk
 Site: https://ashleypoole.co.uk
 Location: UK
-						
-## SITE
+
+/* SITE */
 Last update: {{ site.time | date: "%Y/%m/%d" }}
 Components: Jekyll
