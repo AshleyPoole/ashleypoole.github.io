@@ -8,7 +8,7 @@ Hello!
 
 I'm Ashley Poole, an experienced engineering leader with a passion for driving innovation and excellence in technology teams. With a versatile background across product engineering, platform engineering, site reliability engineering (SRE) and operations, this allows me to bring a diverse & unique approach to problem solving and the product development lifecycle.
 
-During my time within engineering management, I've had the privilege of both building, working with and coaching high-performing product engineering teams, working on a diverse range of products, both greenfield and brownfield in nature.
+During my time within engineering management, I've had the privilege of both building, but also working with and coaching high-performing product engineering teams, working across a diverse range of products, in both a greenfield and brownfield setting.
 
 In the realm of product engineering, I've contributed to the creation of innovative solutions, from concept to market launch, working in different environments such as start-ups, scale-ups and enterprise organisations. My experience in this field has equipped me with the skills to guide teams of all maturities through the complexities of product development, ensuring they efficiently deliver incremental value to customers.
 
