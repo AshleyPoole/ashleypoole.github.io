@@ -1,7 +1,7 @@
 # Site settings
 title: Ashley Poole
-description: 'Engineering Management, Engineering Leadership, Product & Platform Engineering, Site Reliability Engineering Advocate and Speaker.'
-intro_description: '- Engineering Leadership -<br />- Engineering Management -<br />- Product & Platform Engineering -<br />- Site Reliability Engineering Advocate -<br />- Speaker -<br />'
+description: 'Product-engineering leader focused on engineering strategy, technical vision and system architecture across enterprise, scale-up and start-up environments. Creator of VFR Wise aviation products.'
+intro_description: '- Product-Engineering Leader -<br />- Engineering Strategy & Technical Vision -<br />- System Architect -<br />- Product Creator: <a href="https://vfrwise.co.uk" target="_blank" rel="noopener">VFR Wise Aviation Products</a> -<br />- SRE Author & Speaker -<br />'
 url: 'ashleypoole.co.uk'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
