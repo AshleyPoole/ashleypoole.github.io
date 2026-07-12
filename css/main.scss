@@ -57,3 +57,25 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.featured-products {
+  margin-bottom: 2em;
+}
+
+.featured-products__heading {
+  margin-bottom: 0.35em;
+}
+
+.featured-products__intro {
+  margin-bottom: 1.5em;
+  color: #666;
+}
+
+.featured-products__cta {
+  margin: 0.75em 0 1.25em;
+}
+
+.featured-products__cta .btn {
+  display: inline-block;
+  text-decoration: none;
+}

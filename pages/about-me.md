@@ -14,7 +14,7 @@ That has meant building engineering functions from scratch, shaping platform and
 
 That outcome-led view also shapes how I think about AI-enabled product development. I'm interested in using AI thoughtfully to accelerate discovery, improve engineering workflows, and create product experiences that solve real customer problems, while grounding that work in strong technical foundations and responsible delivery.
 
-I also like to stay close to the craft of building products myself. Through [VFR Wise](https://vfrwise.co.uk), I'm creating practical aviation tools for pilots and student pilots, combining my interest in aviation with hands-on product discovery, design, engineering, and release.
+I also like to stay close to the craft of building products myself. As founder of [VFR Wise](https://vfrwise.co.uk) and [OnFinal](https://onfinal.co.uk), I'm building practical aviation tools and a weekly UK general aviation news briefing for pilots and student pilots — combining my interest in aviation with hands-on product discovery, design, engineering, and release.
 
 Reliability has been another consistent thread through my work. I've built and led SRE teams, created SRE charters and guilds, improved observability and incident response, and embedded reliability practices into day-to-day engineering culture. My view of Site Reliability Engineering is deliberately customer-centred: reliability is not just uptime, it is trust.
 

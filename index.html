@@ -1,9 +1,27 @@
 ---
 layout: default
-robots: noindex
 ---
 
 <div class="main-post-list">
+
+  <section class="featured-products">
+    <h2 class="featured-products__heading">Aviation products I founded</h2>
+    <p class="featured-products__intro">Practical tools and briefings for UK pilots and student pilots.</p>
+    <ol class="post-list">
+      <li>
+        <h3 class="post-list__post-title post-title"><a href="https://vfrwise.co.uk" title="VFR Wise" target="_blank" rel="noopener">VFR Wise</a></h3>
+        <p class="excerpt">UK VFR briefing workspace — NOTAMs, weather, route planning, and more in one place for pilots and students.</p>
+        <p class="featured-products__cta"><a href="https://vfrwise.co.uk" class="btn" target="_blank" rel="noopener">Visit VFR Wise</a></p>
+        <hr class="post-list__divider">
+      </li>
+      <li>
+        <h3 class="post-list__post-title post-title"><a href="https://onfinal.co.uk" title="OnFinal" target="_blank" rel="noopener">OnFinal</a></h3>
+        <p class="excerpt">Free weekly UK general aviation news briefing — airspace changes, events, and pilot stories.</p>
+        <p class="featured-products__cta"><a href="https://onfinal.co.uk" class="btn" target="_blank" rel="noopener">Visit OnFinal</a></p>
+        <hr class="post-list__divider">
+      </li>
+    </ol>
+  </section>
 
   <ol class="post-list">
     {% for post in paginator.posts %}
